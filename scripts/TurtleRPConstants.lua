@@ -79,26 +79,15 @@ TurtleRPDropdownOptions["selected_profile"]['3'] = "3"
 
 
 TurtleRPClassData = {}
-TurtleRPClassData['Druid']    = {1, 0.49, 0.04, "FF7C0A"}
-TurtleRPClassData['Hunter']   = {0.67, 0.83, 0.45, "AAD372"}
-TurtleRPClassData['Mage']     = {0.25, 0.78, 0.92, "3FC7EB"}
-TurtleRPClassData['Paladin']  = {0.96, 0.55, 0.73, "F48CBA"}
-TurtleRPClassData['Priest']   = {1, 1, 1, "FFFFFF"}
-TurtleRPClassData['Rogue']    = {1, 0.96, 0.41, "FFF468"}
-TurtleRPClassData['Shaman']   = {0, 0.44, 0.87, "0070DD"}
-TurtleRPClassData['Warlock']  = {0.53, 0.53, 0.93, "8788EE"}
-TurtleRPClassData['Warrior']  = {0.78, 0.61, 0.43, "C69B6D"}
-
---- Localized class names for German
-TurtleRPClassData['Druide']    = {1, 0.49, 0.04, "FF7C0A"}
-TurtleRPClassData['Jäger']   = {0.67, 0.83, 0.45, "AAD372"}
-TurtleRPClassData['Magier']     = {0.25, 0.78, 0.92, "3FC7EB"}
--- (same as english) TurtleRPClassData['Paladin']  = {0.96, 0.55, 0.73, "F48CBA"}
-TurtleRPClassData['Priester']   = {1, 1, 1, "FFFFFF"}
-TurtleRPClassData['Schurke']    = {1, 0.96, 0.41, "FFF468"}
-TurtleRPClassData['Schamane']   = {0, 0.44, 0.87, "0070DD"}
-TurtleRPClassData['Hexenmeister']  = {0.53, 0.53, 0.93, "8788EE"}
-TurtleRPClassData['Krieger']  = {0.78, 0.61, 0.43, "C69B6D"}
+TurtleRPClassData['druid']    = {1, 0.49, 0.04, "FF7C0A"}
+TurtleRPClassData['hunter']   = {0.67, 0.83, 0.45, "AAD372"}
+TurtleRPClassData['mage']     = {0.25, 0.78, 0.92, "3FC7EB"}
+TurtleRPClassData['paladin']  = {0.96, 0.55, 0.73, "F48CBA"}
+TurtleRPClassData['priest']   = {1, 1, 1, "FFFFFF"}
+TurtleRPClassData['rogue']    = {1, 0.96, 0.41, "FFF468"}
+TurtleRPClassData['shaman']   = {0, 0.44, 0.87, "0070DD"}
+TurtleRPClassData['warlock']  = {0.53, 0.53, 0.93, "8788EE"}
+TurtleRPClassData['warrior']  = {0.78, 0.61, 0.43, "C69B6D"}
 
 TurtleRPIcons = {
   "Ability_Ambush",
