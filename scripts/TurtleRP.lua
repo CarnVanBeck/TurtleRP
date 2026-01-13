@@ -9,7 +9,7 @@
 TurtleRP.TestMode = 0
 
 -- Dev
-TurtleRP.currentVersion = "1.1.1"
+TurtleRP.currentVersion = "1.1.2"
 TurtleRP.latestVersion = TurtleRP.currentVersion
 -- Chat
 TurtleRP.channelName = "TTRP"
@@ -292,7 +292,6 @@ function TurtleRP.populate_interface_user_data()
   TurtleRP_AdminSB_Content2_AtAGlance3ScrollBox_AAG3Input:SetText(TurtleRPCharacterInfo["atAGlance3"])
   TurtleRP_AdminSB_Content2_AAG3TitleInput:SetText(TurtleRPCharacterInfo["atAGlance3Title"])
   TurtleRP.setAtAGlanceIcons()
-  --TurtleRP_AdminSB_Content3_FlavourText:SetText("Test from Lua")
   local replacedLineBreaks = gsub(TurtleRPCharacterInfo["description"], "@N", "%\n")
   TurtleRP_AdminSB_Content3_DescriptionScrollBox_DescriptionInput:SetText(replacedLineBreaks)
   TurtleRP_AdminSB_Content4_NotesScrollBox_NotesInput:SetText(TurtleRPCharacterInfo["notes"])
@@ -462,6 +461,7 @@ function TurtleRP.save_style()
   TurtleRPCharacterInfo["experience"] = experience ~= nil and experience or 0
   local walkups = UIDropDownMenu_GetSelectedValue(TurtleRP_AdminSB_Content1_Tab2_WalkupsDropdown)
   TurtleRPCharacterInfo["walkups"] = walkups ~= nil and walkups or 0
+  TurtleRP.log("Debug: Walkups set to " .. TurtleRPCharacterInfo["walkups"])
   local injury = UIDropDownMenu_GetSelectedValue(TurtleRP_AdminSB_Content1_Tab2_InjuryDropdown)
   TurtleRPCharacterInfo["injury"] = injury ~= nil and injury or 0
   local romance = UIDropDownMenu_GetSelectedValue(TurtleRP_AdminSB_Content1_Tab2_RomanceDropdown)

@@ -203,6 +203,8 @@
           <OnClick>
             if TurtleRP.movingIconTray == nil then
               TurtleRP_ChatBox:Show()
+              TurtleRP_ChatBox_ChatBoxTitle:SetText(localize("chat.title"))
+              TurtleRP_ChatBox_SendRPText:SetText(localize("chat.send"))
             end
           </OnClick>
           <OnEnter>

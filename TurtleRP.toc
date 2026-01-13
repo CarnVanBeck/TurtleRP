@@ -7,8 +7,8 @@
 ## SavedVariablesPerCharacter: TurtleRPCharacterInfo, TurtleRPPlayerProfiles, TurtleRPSettings
 
 ChatThrottleLib\ChatThrottleLib.lua
-scripts\TurtleRPConstants.lua
 scripts\TurtleRPTranslation.lua
+scripts\TurtleRPConstants.lua
 scripts\TurtleRPComms.lua
 scripts\TurtleRPEmotes.lua
 scripts\TurtleRPDirectory.lua
