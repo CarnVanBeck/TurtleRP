@@ -461,7 +461,6 @@ function TurtleRP.save_style()
   TurtleRPCharacterInfo["experience"] = experience ~= nil and experience or 0
   local walkups = UIDropDownMenu_GetSelectedValue(TurtleRP_AdminSB_Content1_Tab2_WalkupsDropdown)
   TurtleRPCharacterInfo["walkups"] = walkups ~= nil and walkups or 0
-  TurtleRP.log("Debug: Walkups set to " .. TurtleRPCharacterInfo["walkups"])
   local injury = UIDropDownMenu_GetSelectedValue(TurtleRP_AdminSB_Content1_Tab2_InjuryDropdown)
   TurtleRPCharacterInfo["injury"] = injury ~= nil and injury or 0
   local romance = UIDropDownMenu_GetSelectedValue(TurtleRP_AdminSB_Content1_Tab2_RomanceDropdown)
